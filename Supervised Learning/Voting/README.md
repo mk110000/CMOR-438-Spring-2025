@@ -23,17 +23,3 @@ By observing the data, we can see that diabetes risk is likely dependent on a co
 ## Goal
 
 The goal is to improve prediction accuracy by **combining three different classifiers** to predict whether a patient has diabetes. By using a **voting system**, the code leverages the strengths of multiple models to produce a more robust overall prediction.
-
----
-
-## Instructions to Reproduce Results
-
-1. Open the code in **Google Colab**.
-2. Upload your **CSV file** (must include a `"diabetes"` column).
-3. Run each cell in order.  
-   The script will:
-   - Clean the data  
-   - Balance it using **SMOTE**  
-   - Build individual classifiers  
-   - Combine them using **voting**  
-   - Evaluate how well the combined model predicts diabetes

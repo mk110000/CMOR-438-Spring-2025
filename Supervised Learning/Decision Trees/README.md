@@ -23,17 +23,3 @@ By observing the data, we can see that diabetes risk is likely dependent on a co
 ## Goal
 
 The goal is to build a **Decision Tree model** to predict diabetes using patient data. The code balances the dataset using **SMOTE**, trains the tree, evaluates its performance with metrics like **accuracy** and a **confusion matrix**, and visualizes both the **full tree** and the **top features** that influenced the decision-making process.
-
----
-
-## Instructions to Reproduce Results
-
-1. Open the code in **Google Colab**.
-2. Upload your **CSV file** (must include a `"diabetes"` column).
-3. Run the code cells in order.  
-   This will:
-   - Clean and prepare the data  
-   - Balance the classes using **SMOTE**  
-   - Train the **Decision Tree model**  
-   - Show performance metrics  
-   - Let you visually explore how the tree makes decisions and which features mattered most

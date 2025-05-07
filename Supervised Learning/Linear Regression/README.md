@@ -23,14 +23,3 @@ By observing the data, we can see that diabetes risk is likely dependent on a co
 ## Goal
 
 The code is trying to predict the chances of someone having diabetes based on their medical data. It prepares the data, balances it using **SMOTE** to avoid bias, builds a **Linear Regression** model, and then checks how well the model predicts using evaluation metrics and graphs.
-
----
-
-## Instructions to Reproduce Results
-
-1. Open the code in **Google Colab**.
-2. Upload your own CSV file with similar medical features and a `"diabetes"` column.
-3. Run the cells in order — this will:
-   - Clean the data  
-   - Train the model  
-   - Show predictions through plots and metrics

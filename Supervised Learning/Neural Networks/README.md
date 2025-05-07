@@ -23,15 +23,3 @@ By observing the data, we can see that diabetes risk is likely dependent on a co
 ## Goal
 
 This code builds a **Neural Network** to predict whether someone has diabetes based on their health data. It cleans the data, balances it using **SMOTE**, trains the model using multiple layers, and then checks how accurate the predictions are. It also shows which features were most important to the model.
-
----
-
-## Instructions to Reproduce Results
-
-1. Open the code in **Google Colab**.
-2. Upload a similar CSV file that includes medical features and a column named `"diabetes"`.
-3. Run each section of the code step-by-step.  
-   This will:
-   - Train the neural network  
-   - Make predictions  
-   - Display performance visuals like a confusion matrix and top features

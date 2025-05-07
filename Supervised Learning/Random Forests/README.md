@@ -23,16 +23,3 @@ By observing the data, we can see that diabetes risk is likely dependent on a co
 ## Goal
 
 The goal is to build and evaluate a **Random Forest model** to predict diabetes using patient data. The dataset is balanced using **SMOTE**, the model is trained, and its performance is assessed through accuracy and other metrics. It also identifies and visualizes the **most important features** used in the predictions.
-
----
-
-## Instructions to Reproduce Results
-
-1. Open this code in **Google Colab**.
-2. Upload your **CSV file** (must include a `"diabetes"` column).
-3. Run each code cell step-by-step.  
-   The model will:
-   - Balance the data  
-   - Train a **Random Forest classifier**  
-   - Evaluate predictions  
-   - Show which features were most important in the decision-making process

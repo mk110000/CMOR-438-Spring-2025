@@ -23,16 +23,3 @@ By observing the data, we can see that diabetes risk is likely dependent on a co
 ## Goal
 
 The code aims to reduce the complexity of the data using **PCA**, then use a **Decision Tree** to predict whether a patient has diabetes. Reducing the number of features helps simplify the model, improve efficiency, and can sometimes improve accuracy by removing noise.
-
----
-
-## Instructions to Reproduce Results
-
-1. Open the code in **Google Colab**.
-2. Upload your **dataset** (CSV file with patient info and a `"diabetes"` column).
-3. Run each code block from top to bottom.  
-   This will:
-   - Clean the data  
-   - Apply **PCA**  
-   - Train a **Decision Tree classifier**  
-   - Show prediction performance (including visuals of the **confusion matrix** and **variance explained** by each component)

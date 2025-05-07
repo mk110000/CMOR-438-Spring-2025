@@ -27,15 +27,3 @@ By observing the data, we can see that diabetes risk is likely dependent on a co
 ## Goal
 
 The goal is to train a **Perceptron** model on real-world health data and see how well it can predict diabetes. It also shows how to balance the data using **SMOTE** and how to evaluate the model's accuracy.
-
----
-
-## Instructions to Reproduce Results
-
-1. Run all cells in order.
-2. Upload the provided CSV file when prompted.
-3. The code will clean the data, train the model, and show the results, including:
-   - Model accuracy  
-   - A classification report  
-   - A confusion matrix  
-   - The most important features used by the model

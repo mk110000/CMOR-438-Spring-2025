@@ -23,14 +23,3 @@ By observing the data, we can see that diabetes risk is likely dependent on a co
 ## Goal
 
 The goal is to apply **K-Means** to find natural groupings in the dataset and visualize them. You then compare the clustering results to the actual diabetes labels to see how well the clusters reflect true outcomes. **PCA** (Principal Component Analysis) is used here to reduce the feature space to 2D for easier plotting and interpretation.
-
----
-
-## Instructions to Reproduce Results
-
-1. Open the code in **Google Colab**.
-2. Upload a **CSV file** that includes a diabetes column and remove any unnecessary columns like `year` or `clinical_notes`.
-3. The script standardizes the features, applies **K-Means clustering** (with 2 clusters), and projects the data into 2D using **PCA**.
-4. It produces two plots:
-   - One colored by **true diabetes labels**
-   - Another colored by **K-Means cluster assignments**

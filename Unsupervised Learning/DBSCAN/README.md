@@ -23,15 +23,3 @@ By observing the data, we can see that diabetes risk is likely dependent on a co
 ## Goal
 
 The goal is to explore patterns in the data using **DBSCAN**, which helps find natural groupings (clusters) in the health data. Even though we know who has diabetes, this method tries to group patients based only on patterns in their features—**without using the diabetes labels during training**. The results are visualized in a **scatter plot** and compared with actual labels for evaluation.
-
----
-
-## Instructions to Reproduce Results
-
-1. Open the code in **Google Colab**.
-2. Upload your **CSV file** with health-related features and a `"diabetes"` column.
-3. Run each code block step-by-step.  
-   This will:
-   - Clean the data  
-   - Apply **DBSCAN clustering**  
-   - Show how well the found clusters match the actual labels
